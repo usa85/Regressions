@@ -2,6 +2,7 @@ let mystatdata = {
     /* model 3 */
     "model": {
         "name":"Model 1",
+        "classactive":"",
         "model": 4,
         "modeltitle": "some",
         "constant": {
@@ -109,6 +110,7 @@ let mystatdata = {
     /* model 2 */
     "model2": {
         "name":"Model 2",
+        "classactive":"diseabled",
         "model": 4,
         "modeltitle": "some",
         "constant": {
@@ -213,6 +215,7 @@ let mystatdata = {
     /* model 3 */
     "model": {
         "name":"Model 3",
+        "classactive":"",
         "model": 4,
         "modeltitle": "some",
         "constant": {
@@ -319,6 +322,7 @@ let mystatdata = {
     /* model 4 */
     "model": {
         "name":"Model 4",
+        "classactive":"diseabled",
         "model": 4,
         "modeltitle": "some",
         "constant": {
@@ -424,7 +428,9 @@ let mystatdata = {
 
     /* model 5 */
     "model": {
+        "name":"Model 1",
         "modeltitle": "some",
+        "classactive":"Diseabled",
         "model": 4,
         "constant": {
             "b": 34941.40,
@@ -530,6 +536,7 @@ let mystatdata = {
     /* model 6 */
     "model": {
         "name":"Model 6",
+        "classactive":"diseabled",
         "model": 4,
         "modeltitle": "some",
         "constant": {
@@ -636,6 +643,7 @@ let mystatdata = {
     /* model 7 */
     "model": {
         "name":"Model 7",
+        "classactive":"diseabled",
         "model": 4,
         "modeltitle": "some",
         "constant": {
