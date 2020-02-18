@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <title>Statistics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="favicon.png" size="16x16">
+
+    <script src="https://kit.fontawesome.com/a54bdd44b1.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Start Body content -->
+    <div class="container">
+        <div class="jumbotron text-center">
+    <div class="w3-container" id="vm-header">
+            <h1>Thesis Statistics</h1>
+            <p>This is a prototype of what the statistic site could be</p>
+            <a href="https://usa85.github.io/thesisStat/">Back to thesis site</a>
+        </div>
+    </div>
+
+    <div class="row" style="margin:0; padding:0;">
+
+    <div class="col-sm-2" id="list">
+            <h2 class="mainpageh2">List</h2>
+            <hr>
+            <div id="modulelist" class="w3-ul w3-hoverable">
+
+            </div>
+        </div>
+
+        <!-- <div class="col-sm-2" id="mapstyle">
+                <h2>Map</h2>
+                <hr>
+                <div id="map">
+                    map goes here-->
+               <!--  </div>
+            </div> -->
+    
+            <div class="col-sm-6" id="stattables">
+                 <h2 id="descriptionHeader2">Statistical Summary - <i class="fas fa-hand-point-left"></i></h2>
+                    <hr><div id="content2">
+                   
+               
+                </div> <p> This section includes all statistics description corresponding to the selected model. It includes:</p>
+                <ol>
+                    <li>The name of the model</li>
+                    <li>The list of independent and dependent variables with a short description</li>
+                    <li>A table with the model result starting with the dependent variable (constant), and independent variables.  Table includes all coefficient required to interpret the results</li>
+                    <li>A table that provide the determination coefficients</li>
+                    <li>Graphics representing each case scenario for the model</li>
+                    <li>A map displaying the investigated area for the type of properties</li>
+                </ol>
+            </div>
+    
+    <div class="col-sm-4" id="statdescription">
+            <h2 id="descriptionHeader">Description - <i class="fas fa-hand-point-left"></i></h2>
+            <hr>
+            <div id="content">
+            <p>This section includes the verbiage describing the interpretation of the tables corresponding to the selected model.</p>
+            <h3>catographie</h3>
+            <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </p>
+            </div>
+    </div>
+    <!-- End of body content -->
+    <!-- Starts Script Section -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascripts/cathedralemap.js"></script>
+    <script src="assets/javascripts/arrayregressiondata.js"></script>
+    <script src="assets/javascripts/loadingthesisdata.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfHquEEPHJDwuOWeK3pgkCpWAk2Q40p9E&callback=initMap"></script>
+
+
+</body>
+
+</html>
