@@ -1,2 +1,2 @@
 # Regressions
-To demonstrate how statistic can be analyze
+Prototype on how statistics and related narative can be displayed
