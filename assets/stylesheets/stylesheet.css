@@ -1,3 +1,56 @@
+body {
+  background-image: url("../images/ExitRampsRogers.PNG");
+  background-repeat: 1;
+  width: 100%;
+  Height: 100%;
+  opacity:1;
+}
+.fakeimg {
+    height: 150px;
+    background: #aaa;
+  }
+.jumbot{ 
+  margin-bottom:-5px; 
+  font-size: 0.8rem;
+}
+.superactive{
+  color: yellow;
+}
+.lowerbar{
+  background-color: black;
+  color: white;
+  font-size: 0.1rem;
+}
+
+
+
+.jumbotron{
+  background-color:black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom:25px;
+  margin-bottom:0px;
+  font-size: 0.8rem;
+}
+.espacebefore{
+  padding-top: 10px;
+}
+.smallspan{
+  font-size:1rem;
+}
+#map{
+    height: 350px;
+    width: 100%;
+
+}
+.container{
+  opacity: 1;
+}
+.mainbodybg{
+  background-color:#e9ecef;
+  opacity:0.9;
+}
+
 table {
   border: 1px solid black;
   width: 100%;

@@ -1,6 +1,8 @@
 let myarrstatdata = [
     {
-        "name":"Model Rational",
+        "name":"Rational",
+        "p-type":"Model",
+        "r-abb:":"R-",
         "model": 0,
         "modeltitle": "Analysis Description",
         "description": "<p>voici la description de l'analyse des modeles ci inclues presentes.",
@@ -112,7 +114,9 @@ let myarrstatdata = [
     
     /* model 3 */
     {
-        "name":"Residential Model 1",
+        "name":"Model 1",
+        "p-type":"Residential",
+        "r-abb:":"R-",
         "model": 4,
         "modeltitle": "Second, Total Estimated Market Value of 1,000 Square foot of Land V.S. Drive Time, Building Age, and dummy variables such as Colonial, Rambler, Split Level and split Entry",
         
@@ -222,7 +226,9 @@ let myarrstatdata = [
 
     /* model 2 */
     {
-        "name":"Residential Model 2",
+        "name":"Model 2",
+        "p-type":"Residential",
+        "r-abb:":"R-",
         "model": 4,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -329,7 +335,9 @@ let myarrstatdata = [
 
     /* model 3 */
    {
-        "name":"Residential Model 3",
+        "name":"Model 3",
+        "p-type":"Residential",
+        "r-abb:":"R-",
         "model": 4,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -438,7 +446,9 @@ let myarrstatdata = [
 
     /* model 4 */
     {
-        "name":"Residential Model 4",
+        "name":"Model 4",
+        "p-type":"Residential",
+        "r-abb:":"R-",
         "model": 4,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -547,7 +557,9 @@ let myarrstatdata = [
 
     /* model 5 */
     {
-        "name":"Residential Model 5",
+        "name":"Model 5",
+        "p-type":"Residential",
+        "r-abb:":"R-",
         "modeltitle": "some",
         "model": 4,
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -656,7 +668,9 @@ let myarrstatdata = [
 
     /* model 6 */
   {
-        "name":"Commercial Model 1",
+        "name":"Model 1",
+        "p-type":"Commercial",
+        "r-abb:":"C-",
         "model": 4,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -765,7 +779,9 @@ let myarrstatdata = [
 
     /* model 7 */
     {
-        "name":"Commercial Model 2",
+        "name":"Model 2",
+        "p-type":"Commercial",
+        "r-abb:":"C-",
         "model": 2,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -874,7 +890,9 @@ let myarrstatdata = [
 
     //industrial model 1
     {
-        "name":"Industrial Model 1",
+        "name":"Model 1",
+        "p-type":"Industrial",
+        "r-abb:":"I-",
         "model": 1,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
@@ -982,7 +1000,9 @@ let myarrstatdata = [
 
     //industrial model 2
     {
-        "name":"Industrial Model 2",
+        "name":"Model 2",
+        "p-type":"Industrial",
+        "r-abb:":"I-",
         "model": 2,
         "modeltitle": "some",
         "description2":"<table><caption>Regression Results</caption><tr><th colspan='11'>Estimated Market Value of Land for 1,000 square foot of land - Model summary</th></tr><tr><th>Model</th><th>R<th>r-square</th><th>Adjusted R Squared</th><th>Std Error of the Estimate</th><th>R Square Change</th><th>F Change</th><th>df1</th><th>df2</th><th>Sig. F Change</th><th>Durbin Watson</th></tr><tr><td>4</td><td>0.9</td><td>0.81</td><td>0.80</td><td>4,393</td><td>0.43</td><td>375</td><td>5</td><td>2,541</td><td>0.00</td><td>0.71</td></tr><tr><th colspan='11'><u>note regarding the model.</th></tr></table>",
